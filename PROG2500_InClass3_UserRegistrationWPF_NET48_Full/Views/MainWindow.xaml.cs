@@ -61,30 +61,22 @@ namespace UserRegistrationWPF.Views
                 return;
             }
 
-            try
+            // Create registration data model from form inputs
+            var vm = new RegistrationData
             {
-                // Create registration data model from form inputs
-                var vm = new RegistrationData
-                {
-                    FullName = txtFullName.Text,
-                    Email = txtEmail.Text,
-                    Phone = txtPhone.Text,
-                    Username = txtUsername.Text,
-                    Password = txtPassword.Text
-                };
+                FullName = txtFullName.Text,
+                Email = txtEmail.Text,
+                Phone = txtPhone.Text,
+                Username = txtUsername.Text,
+                Password = txtPassword.Text
+            };
 
-                // Open display window to show the registered data
-                var display = new DisplayWindow(vm)
-                {
-                    Owner = this
-                };
-                display.ShowDialog();
-            }
-            catch (Exception ex)
+            // Open display window to show the registered data
+            var display = new DisplayWindow(vm)
             {
-                // Handle any unexpected errors
-                MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-            }
+                Owner = this
+            };
+            display.ShowDialog();
         }
     }
 

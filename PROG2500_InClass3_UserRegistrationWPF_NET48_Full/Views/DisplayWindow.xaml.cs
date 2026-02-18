@@ -24,13 +24,14 @@ namespace UserRegistrationWPF.Views
             InitializeComponent();
 
             // Display the registration data in the labels
-            lblFullName.Content = data.FullName ?? string.Empty;
-            lblEmail.Content = data.Email ?? string.Empty;
-            lblPhone.Content = data.Phone ?? string.Empty;
-            lblUsername.Content = data.Username ?? string.Empty;
+            lblFullName.Content = data.FullName;
+            lblEmail.Content = data.Email;
+            lblPhone.Content = data.Phone;
+            lblUsername.Content = data.Username;
             
             // Mask the password with bullet points (•)
-            lblPassword.Content = data.Password == null 
+            // Handle empty password gracefully
+            lblPassword.Content = string.IsNullOrEmpty(data.Password) 
                 ? string.Empty 
                 : new string('•', data.Password.Length);
         }
