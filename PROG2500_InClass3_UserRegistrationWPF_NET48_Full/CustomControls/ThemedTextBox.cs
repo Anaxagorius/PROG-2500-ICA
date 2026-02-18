@@ -1,0 +1,1 @@
+using System.Windows;using System.Windows.Controls;namespace UserRegistrationWPF.CustomControls{public class ThemedTextBox:TextBox{static ThemedTextBox(){DefaultStyleKeyProperty.OverrideMetadata(typeof(ThemedTextBox),new FrameworkPropertyMetadata(typeof(ThemedTextBox)));}}}

@@ -1,0 +1,1 @@
+using System.Windows;using System.Windows.Controls;namespace UserRegistrationWPF.CustomControls{public class ThemedLabel:Label{static ThemedLabel(){DefaultStyleKeyProperty.OverrideMetadata(typeof(ThemedLabel),new FrameworkPropertyMetadata(typeof(ThemedLabel)));}}}

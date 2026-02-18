@@ -1,0 +1,1 @@
+using System.Windows;using System.Windows.Controls;namespace UserRegistrationWPF.CustomControls{public class ThemedButton:Button{static ThemedButton(){DefaultStyleKeyProperty.OverrideMetadata(typeof(ThemedButton),new FrameworkPropertyMetadata(typeof(ThemedButton)));}}}

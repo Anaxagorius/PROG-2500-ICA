@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\CLasswork\\PROG2500_InClass3_UserRegistrationWPF_NET48_Full\\UserRegistrationWPF.net48.csproj": {}
+  },
+  "projects": {
+    "C:\\CLasswork\\PROG2500_InClass3_UserRegistrationWPF_NET48_Full\\UserRegistrationWPF.net48.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\CLasswork\\PROG2500_InClass3_UserRegistrationWPF_NET48_Full\\UserRegistrationWPF.net48.csproj",
+        "projectName": "UserRegistrationWPF",
+        "projectPath": "C:\\CLasswork\\PROG2500_InClass3_UserRegistrationWPF_NET48_Full\\UserRegistrationWPF.net48.csproj",
+        "packagesPath": "C:\\Users\\tbbur\\.nuget\\packages\\",
+        "outputPath": "C:\\CLasswork\\PROG2500_InClass3_UserRegistrationWPF_NET48_Full\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tbbur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
