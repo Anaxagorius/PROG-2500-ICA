@@ -1,31 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CLasswork\\PROG2500_InClass3_UserRegistrationWPF_NET48_Full\\UserRegistrationWPF.net48.csproj": {}
+    "/home/runner/work/PROG-2500-ICA/PROG-2500-ICA/PROG2500_InClass3_UserRegistrationWPF_NET48_Full/UserRegistrationWPF.net48.csproj": {}
   },
   "projects": {
-    "C:\\CLasswork\\PROG2500_InClass3_UserRegistrationWPF_NET48_Full\\UserRegistrationWPF.net48.csproj": {
+    "/home/runner/work/PROG-2500-ICA/PROG-2500-ICA/PROG2500_InClass3_UserRegistrationWPF_NET48_Full/UserRegistrationWPF.net48.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CLasswork\\PROG2500_InClass3_UserRegistrationWPF_NET48_Full\\UserRegistrationWPF.net48.csproj",
+        "projectUniqueName": "/home/runner/work/PROG-2500-ICA/PROG-2500-ICA/PROG2500_InClass3_UserRegistrationWPF_NET48_Full/UserRegistrationWPF.net48.csproj",
         "projectName": "UserRegistrationWPF",
-        "projectPath": "C:\\CLasswork\\PROG2500_InClass3_UserRegistrationWPF_NET48_Full\\UserRegistrationWPF.net48.csproj",
-        "packagesPath": "C:\\Users\\tbbur\\.nuget\\packages\\",
-        "outputPath": "C:\\CLasswork\\PROG2500_InClass3_UserRegistrationWPF_NET48_Full\\obj\\",
+        "projectPath": "/home/runner/work/PROG-2500-ICA/PROG-2500-ICA/PROG2500_InClass3_UserRegistrationWPF_NET48_Full/UserRegistrationWPF.net48.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/PROG-2500-ICA/PROG-2500-ICA/PROG2500_InClass3_UserRegistrationWPF_NET48_Full/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\tbbur\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net48"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net48": {
@@ -41,19 +36,22 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net48": {
           "targetAlias": "net48",
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win-x86": {
-          "#import": []
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.102/RuntimeIdentifierGraph.json"
         }
       }
     }

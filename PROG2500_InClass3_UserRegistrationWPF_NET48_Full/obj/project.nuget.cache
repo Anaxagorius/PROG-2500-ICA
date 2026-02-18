@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "wcFn5goRzuc=",
+  "dgSpecHash": "N2aR6JQzXkY=",
   "success": true,
-  "projectFilePath": "C:\\CLasswork\\PROG2500_InClass3_UserRegistrationWPF_NET48_Full\\UserRegistrationWPF.net48.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/runner/work/PROG-2500-ICA/PROG-2500-ICA/PROG2500_InClass3_UserRegistrationWPF_NET48_Full/UserRegistrationWPF.net48.csproj",
+  "expectedPackageFiles": [
+    "/home/runner/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.netframework.referenceassemblies.net48/1.0.3/microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
