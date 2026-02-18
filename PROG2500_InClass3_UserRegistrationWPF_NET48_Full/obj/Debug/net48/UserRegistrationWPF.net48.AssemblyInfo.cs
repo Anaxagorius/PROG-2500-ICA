@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UserRegistrationWPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2b47666721bf58d40212f8cdb7c678a6bc4adee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9628b1b2043c5cb8fb8c30e71a0832c235c8366b")]
 [assembly: System.Reflection.AssemblyProductAttribute("UserRegistrationWPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UserRegistrationWPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
